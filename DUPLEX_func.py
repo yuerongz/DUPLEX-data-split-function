@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.spatial.distance as dist
 from torch.utils.data import TensorDataset
-from LSTM_DUPLEX_numba import allocating_items
+from DUPLEX_numba import allocating_items
 
 
 def duplex_data_split(all_data, train_test_ratio):
